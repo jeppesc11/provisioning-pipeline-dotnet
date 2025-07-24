@@ -4,6 +4,20 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>provisioning-pipeline-dotnet</Title>
+    <Authors>jeppe-spanggaard</Authors>
+    <Description>A flexible async pipeline framework for executing sequential and parallel steps with middleware, hooks, and conditional logic.</Description>
+    <PackageProjectUrl>https://github.com/jeppesc11/provisioning-pipeline-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jeppesc11/provisioning-pipeline-dotnet</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
