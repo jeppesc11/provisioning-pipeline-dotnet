@@ -5,3 +5,8 @@ OutlookSignature/OutlookSignature.Server/obj
 OutlookSignature/@Common/bin
 OutlookSignature/@Common/obj
 OutlookSignature/outlooksignature.client/build
+.vs
+TestApp/obj
+ProvisioningPipeline/obj
+ProvisioningPipeline/bin
+TestApp/bin
